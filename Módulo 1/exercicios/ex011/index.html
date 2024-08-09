@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/html-ico.ico" type="image/x-icon">
+    <title>Tipos de mídia</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmnete aumente e diminua o tamanho do seu navegador. </p>
+    <picture>
+        
+        <source media="(max-width: 750px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="foto grande">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mp3">
+    </audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Reproduzindo Video</h1>
+
+    <video controls width="560" height="315" poster="imagens/gato fofo.png">
+        <source src="midia/video-gato.mp4" type="video/mp4">
+    </video>
+    <h1>Video Incorporado</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8vkGADckmiI?si=p7cqi-TD3osLm41x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
