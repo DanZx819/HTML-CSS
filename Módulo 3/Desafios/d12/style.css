@@ -33,15 +33,21 @@ header > p{
     font-family: "Passion One", sans-serif;
     text-align: center;
     color: white;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 200;
     text-decoration: none;
+
 
 }
 
 header > p > a{
     
     color: white;
+    text-decoration: none;
+}
+header > p > a:hover{
+    color: white;
+    text-decoration: underline;
 }
 p{
     font-family: Sriracha ;
@@ -117,4 +123,12 @@ footer > p{
 
 footer > p > a{
     color: white;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+footer > p > a:hover{
+    color: white;
+    text-decoration: underline;
 }
