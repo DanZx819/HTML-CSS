@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*Configurações Gerais*/
-
+@media all{
 *{
     margin: 0px;
     padding: 0px;
@@ -20,4 +20,6 @@ h1{
     color: white;
     text-shadow: 2px 2px 0px #142397;
     padding: 10px;
+}
+
 }
