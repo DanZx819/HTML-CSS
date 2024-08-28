@@ -36,22 +36,19 @@
     }
 
     menu a:hover{
-        text-decoration: underline;
-        color: black;
+        
+        color: rgb(147, 147, 147);
         transition: 2s;
         
     }
-    menu li:hover{
-        background-color: white;
-        transition: 3s;
-    }
+    
 
     body{
         background-color: beige;
     }
     main{
         margin: auto;
-        width: 85vw;
+        width: 80vw;
         background-color: white;
         border-radius: 10px ;
         margin-top: 10px;
