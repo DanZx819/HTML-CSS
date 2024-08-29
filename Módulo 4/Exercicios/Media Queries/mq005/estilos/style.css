@@ -12,6 +12,9 @@
         width: 100vw;
         height: 100vh;
     }
+    body{
+        overflow-x: hidden;
+    }
     header{
         background-color: darkgray;
     }
@@ -64,24 +67,25 @@
     }
     main{
         margin: auto;
-        width: 80vw;
+        width: 85vw;
         background-color: white;
         border-radius: 10px ;
         margin-top: 10px;
         padding: 10px;
+        
 
     }
-    main p{
+    article p{
         margin-bottom: 20px;
         text-indent: 20px;
         line-height: 1.5em;
 
         text-align: justify;
     }
-    main h2{
+    article h2{
         padding-bottom: 20px;
         
     }
-
+    
 
 }
