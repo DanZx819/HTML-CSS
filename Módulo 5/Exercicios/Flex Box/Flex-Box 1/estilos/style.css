@@ -4,6 +4,7 @@
 div.conteiner{
     background-color: lightsalmon;
     display: flex;
+    flex-direction: row;
 }
 
 div.filho{
@@ -11,6 +12,7 @@ div.filho{
     border: 1px solid black;
     text-align: center;
     flex: auto;
+    padding: 10px;
     
 }
 div.corpo_texto{
