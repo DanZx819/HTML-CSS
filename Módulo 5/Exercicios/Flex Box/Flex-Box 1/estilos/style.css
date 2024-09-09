@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+}
+
+div.filho{
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+    
+}
