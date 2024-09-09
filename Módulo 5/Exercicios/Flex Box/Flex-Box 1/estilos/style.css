@@ -13,3 +13,13 @@ div.filho{
     flex: auto;
     
 }
+div.corpo_texto{
+    background-color: azure;
+    display: flex;
+}
+div.item{
+    margin-top: 10px;
+    background-color: aqua;
+    flex: auto;
+    border-radius: 5px;
+}
