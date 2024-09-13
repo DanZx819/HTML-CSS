@@ -19,16 +19,18 @@ div#imagem{
 div.conteiner{
     background-color: lightsalmon;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    height: 300px;
-    align-items: stretch;
+    flex-flow: row wrap;
+    
+    align-content: space-evenly ;
+    height: 400px;
+    
+    
     
 }
 div.filho{
     background-color: lightskyblue;
     border: 1px solid black;
     text-align: center;
-    padding: 10px;
+    padding: 40px;
     
 }
