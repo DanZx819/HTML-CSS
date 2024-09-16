@@ -14,5 +14,17 @@ div.filho{
     background-color: lightskyblue;
     border: 1px solid black;
     text-align: center;
-    flex-basis: 150px;
+    flex-basis:200px;
+}
+div#cxA{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+div#cxB{
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+div#cxC{
+    flex-shrink: 3;
+    flex-grow: 1;
 }
