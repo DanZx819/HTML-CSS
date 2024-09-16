@@ -56,7 +56,7 @@ div.conteiner2{
     align-items: flex-start;
 }
 div#a1{
-
+ align-self: auto;
 }
 div#a2{
     align-self: auto;
