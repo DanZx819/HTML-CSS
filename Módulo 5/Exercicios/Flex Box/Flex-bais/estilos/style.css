@@ -3,6 +3,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+    text-indent: 30px;
+}
+p#in{
+    text-indent: 0px;
+}
 
 div.conteiner{
     display: flex;
@@ -14,17 +20,32 @@ div.filho{
     background-color: lightskyblue;
     border: 1px solid black;
     text-align: center;
-    flex-basis:200px;
 }
+/*
+    
+    sequencia da shorthand flex: -> flex-grow + flex-shrink + flex-basis
+    grow: crescer
+    shrink: diminuir
+    basis: tamanho determinado do item
+
+*/
 div#cxA{
-    flex-shrink: 0;
-    flex-grow: 1;
+    flex: 0 1 200px
 }
 div#cxB{
-    flex-shrink: 1;
-    flex-grow: 1;
+    flex: 2 0 200px;
 }
 div#cxC{
-    flex-shrink: 3;
-    flex-grow: 1;
+    flex: 1 2 200px;
+}
+
+div#flex-s{
+    border: 1px solid black;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+div#flex-s > p > span{
+    background: rgb(247, 247, 142);
+    
 }
