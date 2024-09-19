@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@media only screen and (max-width: 860px){
+
+header > nav{
+    border: 1px dotted black;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 430px;
+    align-items: stretch;
+    text-align: center;
+}
+header > h1{
+    text-align: center;
+    flex: 0 0 410px;
+    
+}
+
+}
